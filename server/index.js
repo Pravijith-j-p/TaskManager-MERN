@@ -19,7 +19,7 @@ const PORT =process.env.PORT || 5000
 const app =express();
 
 app.use(cors({
-    origin :['http://localhost:3000', "http://localhost:3001","https://astounding-salamander-6645f3.netlify.app"],
+    origin :['http://localhost:3000', "http://localhost:3001","https://roaring-selkie-eb4c46.netlify.app"],
     methods :["GET", "POST", "PUT", "DELETE"],
     credentials :true,
 })
